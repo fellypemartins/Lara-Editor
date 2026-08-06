@@ -1,8 +1,8 @@
 <script>
-    import { version } from "$lib";
+    import { version, currentSize } from "$lib";
 </script>
 
-<h1 class="text-3xl font-semibold text-violet-900 m-10">Lara Editor <sup>v{version}</sup></h1>
+<h1 class="text-3xl font-semibold text-violet-900 m-10">Lara Editor <sup>v{version} • {currentSize} MB</h1>
 
 <div class="flex">
     <div class="flex flex-col m-10">
