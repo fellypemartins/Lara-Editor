@@ -1,6 +1,18 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
+/* Dark background-color: #18181B */
+
+/* Light background-color: #F4F4F5 */
+
 html {
-    background-color: rgb(30, 30, 30);
+    background-color: #F4F4F5;
 }
+
+/* Dark Text
+color: #E4E4E7;
+*/
+
+/* Light Text
+color: #27272A;
+*/
