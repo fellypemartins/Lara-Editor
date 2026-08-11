@@ -1,4 +1,4 @@
-# Lara Editor - v0.0.2
+# Lara Editor - v0.1.0
 
 ```sh
 # How to run Lara

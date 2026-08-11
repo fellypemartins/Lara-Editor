@@ -1,7 +1,7 @@
 {
   "$schema": "../node_modules/@tauri-apps/cli/config.schema.json",
   "productName": "lara-editor",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "identifier": "com.tandr.lara-editor",
   "build": {
     "frontendDist": "../build",

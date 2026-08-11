@@ -1,31 +1,18 @@
 <script>
-    import { version, currentSize } from "$lib";
+    import { version, currentSize } from "$lib/index";
 </script>
 
-<h1 class="text-3xl font-semibold text-violet-900 m-10">Lara Editor <sup>v{version} • {currentSize} MB</h1>
+<div class="w-full min-h-screen flex justify-center items-center">
+    <div class="flex flex-col">
+        <div class="flex justify-center items-center">
+            <h1 class="text-2xl font-semibold text-violet-600">
+                Lara
 
-<div class="flex">
-    <div class="flex flex-col m-10">
-        <p><span class="text-2xl font-semibold text-violet-900">L</span>eve</p>
-        <p><span class="text-2xl font-semibold text-violet-900">A</span>gil</p>
-        <p>
-            <span class="text-2xl font-semibold text-violet-900">R</span>obusta
-        </p>
-        <p>
-            <span class="text-2xl font-semibold text-violet-900">A</span
-            >cessível
-        </p>
-    </div>
+                <span class="bg-violet-600 text-white p-2">Editor</span>
+            </h1>
+        </div>
 
-    <div class="flex flex-col m-10">
-        <p><span class="text-2xl font-semibold text-violet-900">L</span>ight</p>
-        <p><span class="text-2xl font-semibold text-violet-900">A</span>gile</p>
-        <p>
-            <span class="text-2xl font-semibold text-violet-900">R</span>obust
-        </p>
-        <p>
-            <span class="text-2xl font-semibold text-violet-900">A</span
-            >ccessible
-        </p>
+        <span class="text-sm text-center text-slate-500 m-3">Version {version} • {currentSize} MB</span>
     </div>
 </div>
+
